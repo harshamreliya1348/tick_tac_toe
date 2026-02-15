@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic take tock</title>
+    <link href="tic.css" rel="stylesheet">
+</head>
+<body>
+   <div class="intro">
+      <h1>Tic Tac Toe</h1>
+      <P id="win"></P>
+      <button id="new">NewGame</button>
+      <audio id="clicksound" src="button_sound.mp3"></audio>
+      <audio id="winnersound" src="winner_sound.mp3"></audio>
+      <audio id="victorysound" src="victory.mp3"></audio>
+   </div>
+     <main>
+      <p id="player_O">0</p>
+       <div class="outer border">
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="inner border"  onclick=""></button>
+          <button class="reset">Reset</button>
+            </div>
+            <p id="player_x">0</p>
+         </main>
+       <script src="tic.js"></script>
+</body>
+</html>
