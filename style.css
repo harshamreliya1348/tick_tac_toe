@@ -66,12 +66,12 @@ main{
   }
   @media(max-width:800px){
         main{
-            height: 100%;
+            height: auto;
             flex-direction: column;
             gap:0.5rem;
         }
         .outer{
-            height:auto;
+            height:92vmin;
             width:90vmin;
         }
   }
@@ -113,7 +113,4 @@ main{
     margin-top: 12rem; */
     font-size: 5rem;
 }
-
  
-
-
