@@ -128,6 +128,9 @@ let playerO=true;//fort player O
                 victory_sound.play();
                 alert("X is a winner of this Series , Let's start new Game");
              }
+            else if(player2.innerText = player1.innerText){
+              alert("series is Draw, Please start new Game");
+             }
 
           }
           
@@ -140,4 +143,5 @@ let playerO=true;//fort player O
     return false;
   }
   reset.addEventListener("click",resetGame);
+
  newgame.addEventListener("click",New);
