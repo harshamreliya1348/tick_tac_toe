@@ -143,4 +143,5 @@ let playerO=true;//fort player O
     return false;
   }
   reset.addEventListener("click",resetGame);
+
  newgame.addEventListener("click",New);
